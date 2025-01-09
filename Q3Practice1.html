@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel= "stylesheet">
+<body>
+	<title>Q3Practice1</title>
+	  <style> 
+	  #quotetext{
+	  	position: absolute;
+	  	top: 30%;
+	  	left: 57%;
+	  	transform: translate(-50%, -50%);
+	  } 
+	 </style>
+	</head>
+
+<body>
+
+	<h1></h1>
+	<br>
+
+	<div class="container-fluid" id="main">
+		<div class="row">
+			<center> 
+			<div class="col-md-4" id="div2">
+			    <img id="box" src="https://img.freepik.com/free-vector/beautiful-frame-design-with-dragonfly_53876-115833.jpg"> 
+			    <div id="quotetext" class="col-md-3">
+			    	<p id= "quote1"></p>
+			    	<p id= "owner"></p>
+			    </div>
+		    </div>
+		    </center>
+		</div>
+	</div>
+	<script> 
+		let quote1 ="The secret of getting ahead is getting started."; 
+		let name = "- Mark Twain";
+
+		document.getElementById("quote1").innerHTML= quote1 + "<br>"; 
+		document.getElementById("owner").innerHTML= name;
+
+	</script>
+</body>
+</html>
+
+
+	
+
